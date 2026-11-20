@@ -1,0 +1,15 @@
+# XAMPP / local configuration
+.htaccess
+
+# Uploads
+uploads/items/*
+!uploads/items/.gitkeep
+
+# Environment and secrets
+.env
+.env.*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
